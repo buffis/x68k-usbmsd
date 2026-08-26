@@ -3,6 +3,8 @@
 A driver that makes a USB memory stick plugged into a Nereid's USB port
 appear as hard drives on an X68000.
 
+Demo video: https://youtube.com/shorts/7ik-nWwLgaU
+
 Consists of two parts:
 
 | file | description |
