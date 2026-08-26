@@ -15,7 +15,7 @@ Consists of two parts:
 Copy `USBMSD.SYS` to the boot drive and add a line to `CONFIG.SYS`:
 
 ```
-DEVICE = &yen;USBMSD.SYS -v
+DEVICE = ¥USBMSD.SYS -v
 ```
 
 Options:
@@ -70,8 +70,7 @@ between. It does not write anything.
 - `export XDEV68K_DIR=/path/to/xdev68k`
 - `make`
 
-Both binaries end up in `bin/`. Intermediates go in `_build/`, and `make
-clean` removes both.
+Both binaries end up in `bin/`.
 
 ### Notes on the build
 
