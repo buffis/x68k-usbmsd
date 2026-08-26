@@ -1,19 +1,9 @@
 # Build intermediates from the xdev68k toolchain.
-#
-# _build/ holds the gcc output, the HAS-syntax conversion of it, the object
-# files, the HLK indirect file and the link map - all regenerable by `make`.
 _build/
 *.o
 
 # gas2has leftovers, in case a build is interrupted mid-rule
 *.m68k-gas.s
-
-# The built USBMSD.SYS and USBTEST.X are deliberately NOT ignored: the
-# existing drivers in this tree (usbd/bin/, usbfd/) ship their binaries too,
-# so someone without a cross-compiler can just use them. Uncomment these if
-# you would rather keep the repository source-only.
-#*.SYS
-#*.X
 
 # Editor and OS noise
 *~
